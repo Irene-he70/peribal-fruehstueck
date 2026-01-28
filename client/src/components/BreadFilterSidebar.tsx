@@ -4,7 +4,6 @@ import { Checkbox } from '@/components/ui/checkbox';
 import { Slider } from '@/components/ui/slider';
 import { Label } from '@/components/ui/label';
 import { RotateCcw } from 'lucide-react';
-import { useTranslation } from 'react-i18next';
 
 interface BreadFilterSidebarProps {
   filters: {
@@ -22,8 +21,6 @@ export default function BreadFilterSidebar({
   onFiltersChange,
   recipeCount,
 }: BreadFilterSidebarProps) {
-  const { t } = useTranslation();
-
   const handleCategoryChange = (category: 'all' | 'bread' | 'rolls' | 'flatbread' | 'pancakes') => {
     onFiltersChange({ ...filters, category });
   };
@@ -53,7 +50,7 @@ export default function BreadFilterSidebar({
     <aside className="w-64 hidden lg:block">
       <div className="sticky top-24 bg-card rounded-lg p-6 shadow-sm border border-border">
         <div className="flex items-center justify-between mb-6">
-          <h2 className="text-lg font-semibold text-foreground">{t('filter.title')}</h2>
+          <h2 className="text-lg font-semibold text-foreground">Filter</h2>
           <Button
             variant="ghost"
             size="sm"
@@ -67,7 +64,7 @@ export default function BreadFilterSidebar({
         {/* Category Filter */}
         <div className="mb-6 pb-6 border-b border-border">
           <Label className="text-sm font-semibold text-foreground mb-3 block">
-            {t('bread.filter.type')}
+            Kategorie
           </Label>
           <div className="space-y-3">
             <div className="flex items-center gap-2">
@@ -81,7 +78,7 @@ export default function BreadFilterSidebar({
                 className="w-4 h-4 cursor-pointer accent-primary"
               />
               <Label htmlFor="cat-all" className="cursor-pointer text-sm">
-                {t('filter.allRecipes')}
+                Alle Rezepte
               </Label>
             </div>
             <div className="flex items-center gap-2">
@@ -146,7 +143,7 @@ export default function BreadFilterSidebar({
         {/* Type Filter */}
         <div className="mb-6 pb-6 border-b border-border">
           <Label className="text-sm font-semibold text-foreground mb-3 block">
-            {t('filter.recipeType')}
+            Ernährungstyp
           </Label>
           <div className="space-y-3">
             <div className="flex items-center gap-2">
@@ -160,7 +157,7 @@ export default function BreadFilterSidebar({
                 className="w-4 h-4 cursor-pointer accent-primary"
               />
               <Label htmlFor="type-all" className="cursor-pointer text-sm">
-                {t('filter.allRecipes')}
+                Alle Rezepte
               </Label>
             </div>
             <div className="flex items-center gap-2">
@@ -174,7 +171,7 @@ export default function BreadFilterSidebar({
                 className="w-4 h-4 cursor-pointer accent-primary"
               />
               <Label htmlFor="type-vegetarian" className="cursor-pointer text-sm">
-                🥬 {t('filter.animalProtein')}
+                🥬 Vegetarisch
               </Label>
             </div>
             <div className="flex items-center gap-2">
@@ -188,7 +185,7 @@ export default function BreadFilterSidebar({
                 className="w-4 h-4 cursor-pointer accent-primary"
               />
               <Label htmlFor="type-vegan" className="cursor-pointer text-sm">
-                🌱 {t('filter.plantProtein')}
+                🌱 Vegan
               </Label>
             </div>
           </div>
@@ -197,7 +194,7 @@ export default function BreadFilterSidebar({
         {/* Prep Time Filter */}
         <div className="mb-6 pb-6 border-b border-border">
           <Label className="text-sm font-semibold text-foreground mb-3 block">
-            {t('filter.prepTime', { time: filters.prepTime })}
+            Zubereitungszeit: bis {filters.prepTime} Min
           </Label>
           <Slider
             value={[filters.prepTime]}
@@ -208,8 +205,8 @@ export default function BreadFilterSidebar({
             className="w-full"
           />
           <div className="flex justify-between text-xs text-muted-foreground mt-2">
-            <span>5 min</span>
-            <span>45 min</span>
+            <span>5 Min</span>
+            <span>45 Min</span>
           </div>
         </div>
 
@@ -222,7 +219,7 @@ export default function BreadFilterSidebar({
               onCheckedChange={handleFavoritesChange}
             />
             <Label htmlFor="favorites" className="cursor-pointer text-sm">
-              ❤️ {t('recipe.details')}
+              ❤️ Nur Favoriten
             </Label>
           </div>
         </div>
@@ -230,7 +227,7 @@ export default function BreadFilterSidebar({
         {/* Results Count */}
         <div className="pt-4 border-t border-border">
           <p className="text-sm text-muted-foreground">
-            <span className="font-semibold text-foreground">{recipeCount}</span> {t('recipe.found')}
+            <span className="font-semibold text-foreground">{recipeCount}</span> Rezepte gefunden
           </p>
         </div>
       </div>

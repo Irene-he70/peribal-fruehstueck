@@ -3,26 +3,15 @@ import { useState } from 'react';
 import { Menu, X, Download, ShoppingCart } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useLocation } from 'wouter';
-import { useTranslation } from 'react-i18next';
 import ShoppingListModal from './ShoppingListModal';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isShoppingListOpen, setIsShoppingListOpen] = useState(false);
   const [location, setLocation] = useLocation();
-  const { t } = useTranslation();
-  
   const isBreakfastPage = location === '/';
   const isBreadPage = location === '/bread';
   const isDinnerPage = location === '/dinner';
-
-
-
-  const getSubtitle = () => {
-    if (isBreakfastPage) return t('breakfast.subtitle');
-    if (isBreadPage) return t('bread.subtitle');
-    return t('dinner.subtitle');
-  };
 
   return (
     <>
@@ -36,7 +25,7 @@ export default function Header() {
                 PERIBAL
               </h1>
               <p className="text-xs text-muted-foreground">
-                {getSubtitle()}
+                {isBreakfastPage ? 'Frühstücksrezepte' : isBreadPage ? 'Brot & Backwaren' : 'Dinner-Rezepte'}
               </p>
             </div>
           </div>
@@ -50,25 +39,23 @@ export default function Header() {
                 size="sm"
                 onClick={() => setLocation('/')}
               >
-                {t('header.breakfast')}
+                🍳 Frühstück
               </Button>
               <Button
                 variant={isBreadPage ? 'default' : 'outline'}
                 size="sm"
                 onClick={() => setLocation('/bread')}
               >
-                {t('header.bread')}
+                🍞 Brot & Backwaren
               </Button>
               <Button
                 variant={isDinnerPage ? 'default' : 'outline'}
                 size="sm"
                 onClick={() => setLocation('/dinner')}
               >
-                {t('header.dinner')}
+                🍽️ Dinner
               </Button>
             </div>
-
-
 
             <Button
               variant="outline"
@@ -77,7 +64,7 @@ export default function Header() {
               className="gap-2"
             >
               <ShoppingCart className="h-4 w-4" />
-              {t('header.shoppingList')}
+              Einkaufsliste
             </Button>
             <a
               href="/peribal_suess_rezepte.pdf"
@@ -86,7 +73,7 @@ export default function Header() {
             >
               <Button variant="outline" size="sm" className="gap-2">
                 <Download className="h-4 w-4" />
-                {t('header.pdfSweet')}
+                PDF (Süß)
               </Button>
             </a>
             <a
@@ -96,7 +83,7 @@ export default function Header() {
             >
               <Button variant="outline" size="sm" className="gap-2">
                 <Download className="h-4 w-4" />
-                {t('header.pdfSavory')}
+                PDF (Herzhaft)
               </Button>
             </a>
           </div>
@@ -128,7 +115,7 @@ export default function Header() {
                   setIsMenuOpen(false);
                 }}
               >
-                {t('header.breakfast')}
+                🍳 Frühstück
               </Button>
               <Button
                 variant={isBreadPage ? 'default' : 'outline'}
@@ -139,7 +126,7 @@ export default function Header() {
                   setIsMenuOpen(false);
                 }}
               >
-                {t('header.bread')}
+                🍞 Brot
               </Button>
               <Button
                 variant={isDinnerPage ? 'default' : 'outline'}
@@ -150,12 +137,9 @@ export default function Header() {
                   setIsMenuOpen(false);
                 }}
               >
-                {t('header.dinner')}
+                🍽️ Dinner
               </Button>
             </div>
-
-
-
             <Button
               variant="outline"
               className="w-full justify-start gap-2"
@@ -165,18 +149,18 @@ export default function Header() {
               }}
             >
               <ShoppingCart className="h-4 w-4" />
-              {t('header.shoppingList')}
+              Einkaufsliste
             </Button>
             <a href="/peribal_suess_rezepte.pdf" download className="block">
               <Button variant="outline" className="w-full justify-start gap-2">
                 <Download className="h-4 w-4" />
-                {t('header.pdfSweet')}
+                PDF (Süß)
               </Button>
             </a>
             <a href="/peribal_herzhaft_rezepte.pdf" download className="block">
               <Button variant="outline" className="w-full justify-start gap-2">
                 <Download className="h-4 w-4" />
-                {t('header.pdfSavory')}
+                PDF (Herzhaft)
               </Button>
             </a>
           </div>
