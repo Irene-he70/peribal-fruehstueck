@@ -1,0 +1,60 @@
+{
+  "header": {
+    "breakfast": "🍳 Breakfast",
+    "bread": "🍞 Bread & Baked Goods",
+    "dinner": "🍽️ Dinner",
+    "shoppingList": "Shopping List",
+    "pdfSweet": "PDF (Sweet)",
+    "pdfSavory": "PDF (Savory)"
+  },
+  "filter": {
+    "title": "Filter",
+    "recipeType": "Recipe Type",
+    "allRecipes": "All Recipes",
+    "sweet": "🍰 Sweet",
+    "savory": "🥘 Savory",
+    "proteinType": "Protein Type",
+    "allProtein": "All Recipes",
+    "animalProtein": "🥬 Animal Protein",
+    "plantProtein": "🌱 Plant Protein",
+    "temperature": "Temperature",
+    "allTemperature": "All Dishes",
+    "warm": "🔥 Warm",
+    "cold": "❄️ Cold",
+    "prepTime": "Prep Time: up to {{time}} min",
+    "resetFilters": "Reset Filters"
+  },
+  "recipe": {
+    "details": "Details",
+    "print": "Print",
+    "addToShoppingList": "Add to Shopping List",
+    "protein": "Protein",
+    "carbs": "Carbohydrates",
+    "fat": "Fat",
+    "calories": "Calories",
+    "ingredients": "Ingredients",
+    "servings": "Servings",
+    "instructions": "Instructions",
+    "specialNutrients": "Special Nutrients",
+    "shelfLife": "Shelf Life",
+    "freezable": "Freezable: Yes",
+    "notFreezable": "Not freezable",
+    "found": "Recipe{{count}} found",
+    "noResults": "No recipes found. Please adjust your filters."
+  },
+  "breakfast": {
+    "subtitle": "Breakfast Recipes"
+  },
+  "bread": {
+    "subtitle": "Bread & Baked Goods"
+  },
+  "dinner": {
+    "subtitle": "Dinner Recipes"
+  },
+  "shoppingList": {
+    "title": "Shopping List",
+    "empty": "Your shopping list is empty",
+    "download": "Download Shopping List",
+    "items": "Ingredients"
+  }
+}

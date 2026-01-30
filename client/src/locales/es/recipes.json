@@ -1,0 +1,34 @@
+{
+  "breakfast": {
+    "title": "Recetas de Desayuno",
+    "filter": {
+      "type": "Tipo de Receta",
+      "all": "Todas las Recetas",
+      "sweet": "🍰 Dulce",
+      "savory": "🥘 Salado"
+    }
+  },
+  "bread": {
+    "title": "Pan & Productos de Panadería",
+    "filter": {
+      "type": "Tipo de Pan",
+      "all": "Todas las Recetas",
+      "bread": "🍞 Pan",
+      "rolls": "🥐 Panecillos",
+      "flatbread": "🥙 Pan Plano",
+      "pancakes": "🥞 Panqueques"
+    }
+  },
+  "dinner": {
+    "title": "Recetas de Cena",
+    "filter": {
+      "protein": "Tipo de Proteína",
+      "temperature": "Temperatura",
+      "all": "Todas las Recetas",
+      "animal": "🥬 Animal",
+      "plant": "🌱 Vegetal",
+      "warm": "🔥 Caliente",
+      "cold": "❄️ Frío"
+    }
+  }
+}

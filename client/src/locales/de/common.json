@@ -1,0 +1,79 @@
+{
+  "header": {
+    "breakfast": "🍳 Frühstück",
+    "bread": "🍞 Brot & Backwaren",
+    "dinner": "🍽️ Dinner",
+    "shoppingList": "Einkaufsliste",
+    "pdfSweet": "PDF (Süß)",
+    "pdfSavory": "PDF (Herzhaft)"
+  },
+  "filter": {
+    "title": "Filter",
+    "recipeType": "Rezept-Typ",
+    "allRecipes": "Alle Rezepte",
+    "sweet": "🍰 Süßlich",
+    "savory": "🥘 Herzhaft",
+    "proteinType": "Protein-Typ",
+    "allProtein": "Alle Rezepte",
+    "animalProtein": "🥬 Tierisches Protein",
+    "plantProtein": "🌱 Pflanzliches Protein",
+    "temperature": "Temperatur",
+    "allTemperature": "Alle Gerichte",
+    "warm": "🔥 Warm",
+    "cold": "❄️ Kalt",
+    "prepTime": "Zubereitungszeit: bis {{time}} Min",
+    "resetFilters": "Filter zurücksetzen"
+  },
+  "recipe": {
+    "details": "Details",
+    "print": "Drucken",
+    "addToShoppingList": "Zur Einkaufsliste",
+    "protein": "Protein",
+    "carbs": "Kohlenhydrate",
+    "fat": "Fett",
+    "calories": "Kalorien",
+    "ingredients": "Zutaten",
+    "servings": "Portionen",
+    "instructions": "Zubereitung",
+    "specialNutrients": "Besondere Nährstoffe",
+    "shelfLife": "Haltbarkeit",
+    "freezable": "Gefrierbar: Ja",
+    "notFreezable": "Nicht gefrierbar",
+    "found": "Rezept{{count}} gefunden",
+    "noResults": "Keine Rezepte gefunden. Bitte passen Sie die Filter an."
+  },
+  "breakfast": {
+    "subtitle": "Frühstücksrezepte",
+    "filter": {
+      "sweet": "🍰 Süßlich",
+      "savory": "🥘 Herzhaft"
+    }
+  },
+  "bread": {
+    "subtitle": "Brot & Backwaren",
+    "filter": {
+      "type": "Brot-Typ",
+      "bread": "🍞 Brot",
+      "rolls": "🥐 Brötchen",
+      "flatbread": "🫓 Fladenbrot",
+      "pancakes": "🥞 Pancakes"
+    }
+  },
+  "dinner": {
+    "subtitle": "Dinner-Rezepte",
+    "filter": {
+      "proteinType": "Protein-Typ",
+      "animalProtein": "🥬 Tierisches Protein",
+      "plantProtein": "🌱 Pflanzliches Protein",
+      "temperature": "Temperatur",
+      "warm": "🔥 Warm",
+      "cold": "❄️ Kalt"
+    }
+  },
+  "shoppingList": {
+    "title": "Einkaufsliste",
+    "empty": "Ihre Einkaufsliste ist leer",
+    "download": "Einkaufsliste herunterladen",
+    "items": "Zutaten"
+  }
+}
