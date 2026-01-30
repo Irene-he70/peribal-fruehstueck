@@ -35,9 +35,7 @@ export default function Header() {
               <h1 className="text-2xl font-bold text-primary" style={{ fontFamily: 'Playfair Display' }}>
                 PERIBAL
               </h1>
-              <p className="text-xs text-muted-foreground">
-                {getSubtitle()}
-              </p>
+
             </div>
           </div>
 
@@ -79,26 +77,7 @@ export default function Header() {
               <ShoppingCart className="h-4 w-4" />
               {t('header.shoppingList')}
             </Button>
-            <a
-              href="/peribal_suess_rezepte.pdf"
-              download
-              className="inline-flex items-center gap-2"
-            >
-              <Button variant="outline" size="sm" className="gap-2">
-                <Download className="h-4 w-4" />
-                {t('header.pdfSweet')}
-              </Button>
-            </a>
-            <a
-              href="/peribal_herzhaft_rezepte.pdf"
-              download
-              className="inline-flex items-center gap-2"
-            >
-              <Button variant="outline" size="sm" className="gap-2">
-                <Download className="h-4 w-4" />
-                {t('header.pdfSavory')}
-              </Button>
-            </a>
+
           </div>
 
           {/* Mobile Menu Button */}
@@ -167,18 +146,7 @@ export default function Header() {
               <ShoppingCart className="h-4 w-4" />
               {t('header.shoppingList')}
             </Button>
-            <a href="/peribal_suess_rezepte.pdf" download className="block">
-              <Button variant="outline" className="w-full justify-start gap-2">
-                <Download className="h-4 w-4" />
-                {t('header.pdfSweet')}
-              </Button>
-            </a>
-            <a href="/peribal_herzhaft_rezepte.pdf" download className="block">
-              <Button variant="outline" className="w-full justify-start gap-2">
-                <Download className="h-4 w-4" />
-                {t('header.pdfSavory')}
-              </Button>
-            </a>
+
           </div>
         )}
       </header>
