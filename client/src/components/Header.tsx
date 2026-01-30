@@ -32,7 +32,7 @@ export default function Header() {
           <div className="flex items-center gap-3">
             <img src="/logo.png" alt="PERIBAL" className="h-12 w-auto" />
             <div>
-              <h1 className="text-2xl font-bold text-primary" style={{ fontFamily: 'Arial', paddingBottom: '6px', paddingLeft: '230px' }}>
+              <h1 className="text-2xl font-bold text-primary" style={{ fontFamily: 'Arial', paddingBottom: '6px', paddingLeft: '80px' }}>
                 REZEPTE
               </h1>
 
