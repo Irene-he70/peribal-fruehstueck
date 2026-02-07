@@ -30,7 +30,7 @@ export default function Header() {
         <div className="container py-4 flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <img src="/logo.png" alt="PERIBAL" className="h-12 w-auto" />
+            <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/EnKbkQEgLKbsVYvc.png" alt="PERIBAL" className="h-12 w-auto" />
             <div>
               <h1 className="text-2xl font-bold text-primary" style={{ fontFamily: 'Arial', paddingBottom: '6px', paddingLeft: '80px' }}>
                 REZEPTE

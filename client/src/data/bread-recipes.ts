@@ -29,18 +29,17 @@ export const breadRecipes: BreadRecipe[] = [
     type: 'vegetarian',
     prepTime: 25,
     servings: 6,
-    image: '/images/0_T5z188J5h374wIhsJWhfdH_1769335490329_na1fn_L2hvbWUvdWJ1bnR1L3Byb3RlaW5fcm9sbHM.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/rLkfVQUUctJXAocD.png',
     ingredients: [
       { amount: '250g', name: 'Quark (20% Fett)' },
       { amount: '3', name: 'Eier' },
       { amount: '2 Scoops', name: 'Proteinpulver (Vanilla)' },
       { amount: '1 TL', name: 'Backpulver' },
       { amount: '1 TL', name: 'Vanilleextrakt' },
-      { amount: 'nach Geschmack', name: 'Stevia' },
       { amount: '1 Prise', name: 'Salz' },
     ],
     instructions: [
-      'Quark, Eier, Proteinpulver, Backpulver, Vanilleextrakt, Stevia und Salz mischen',
+      'Quark, Eier, Proteinpulver, Backpulver, Vanilleextrakt und Salz mischen',
       'Teig in Muffinformen geben',
       '20 Minuten bei 180°C backen',
       'Abkühlen lassen',
@@ -63,7 +62,7 @@ export const breadRecipes: BreadRecipe[] = [
     type: 'vegan',
     prepTime: 30,
     servings: 8,
-    image: '/images/1_HC81mfeAgeCX5ZZ7lmqZCN_1769335482467_na1fn_L2hvbWUvdWJ1bnR1L2J1Y2t3aGVhdF9yb2xsc19jYXJhd2F5.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/hjokJpWshYAMstJF.png',
     ingredients: [
       { amount: '200g', name: 'Buchweizenmehl' },
       { amount: '100g', name: 'Kichererbsenmehl' },
@@ -102,7 +101,7 @@ export const breadRecipes: BreadRecipe[] = [
     type: 'vegetarian',
     prepTime: 20,
     servings: 6,
-    image: '/images/2_O4sENvqggpaDlWKdMFhhna_1769335499097_na1fn_L2hvbWUvdWJ1bnR1L21hbmRlbG1laGxfYnJvZXRjaGVu.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/XNSYKqzZUoyCEckE.png',
     ingredients: [
       { amount: '250g', name: 'Mandelmehl' },
       { amount: '4', name: 'Eier' },
@@ -137,7 +136,7 @@ export const breadRecipes: BreadRecipe[] = [
     type: 'vegan',
     prepTime: 25,
     servings: 4,
-    image: '/images/3_rAquDqJx6IzA1YN1i6ipig_1769335504618_na1fn_L2hvbWUvdWJ1bnR1L2tpY2hlcmVyYnNlbl9mbGFkZW5icm90.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/tAfOKgFlBadyUaYD.png',
     ingredients: [
       { amount: '200g', name: 'Kichererbsenmehl' },
       { amount: '200ml', name: 'Wasser' },
@@ -176,7 +175,7 @@ export const breadRecipes: BreadRecipe[] = [
     type: 'vegetarian',
     prepTime: 35,
     servings: 8,
-    image: '/images/4_yN9eXQBG2bfi4XY1EJSylG_1769335488082_na1fn_L2hvbWUvdWJ1bnR1L2VpX2Jyb3RfbWl0X3Nlc2Ft.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/kJQDCeLHjACCobEK.png',
     ingredients: [
       { amount: '8', name: 'Eier' },
       { amount: '200g', name: 'Quark (20% Fett)' },
@@ -215,7 +214,7 @@ export const breadRecipes: BreadRecipe[] = [
     type: 'vegan',
     prepTime: 40,
     servings: 6,
-    image: '/images/5_Bscy9tbz2PClkagTO6H04z_1769335492700_na1fn_L2hvbWUvdWJ1bnR1L2xlaW5zYW1lbl9icm9ldGNoZW4.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/kUyUhsQOOfRwsoxr.png',
     ingredients: [
       { amount: '150g', name: 'Leinsamenmehl' },
       { amount: '150g', name: 'Buchweizenmehl' },
@@ -254,7 +253,7 @@ export const breadRecipes: BreadRecipe[] = [
     type: 'vegetarian',
     prepTime: 30,
     servings: 6,
-    image: '/images/bread_susskartoffel_broetchen.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/PncUUYCTZAlKVLTu.png',
     ingredients: [
       { amount: '200g', name: 'Süßkartoffel (gekocht, püriert)' },
       { amount: '3', name: 'Eier' },
@@ -289,14 +288,13 @@ export const breadRecipes: BreadRecipe[] = [
     type: 'vegetarian',
     prepTime: 15,
     servings: 8,
-    image: '/images/7_mY063rfvs6krahav1WkH8s_1769335501763_na1fn_L2hvbWUvdWJ1bnR1L3Byb3RlaW5fcGFuY2FrZXM.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/HhJIFQPvpGYRSqje.png',
     ingredients: [
       { amount: '3', name: 'Eier' },
       { amount: '150g', name: 'Griechischer Joghurt' },
       { amount: '1 Scoop', name: 'Proteinpulver (Vanilla)' },
       { amount: '1/2 TL', name: 'Backpulver' },
       { amount: '1 TL', name: 'Vanilleextrakt' },
-      { amount: 'nach Geschmack', name: 'Stevia' },
       { amount: '1 TL', name: 'Butter zum Braten' },
     ],
     instructions: [
@@ -323,18 +321,17 @@ export const breadRecipes: BreadRecipe[] = [
     type: 'vegan',
     prepTime: 20,
     servings: 6,
-    image: '/images/8_4uztKqqAoiRJYhTbde2RNx_1769335497639_na1fn_L2hvbWUvdWJ1bnR1L2tpY2hlcmVyYnNlbl9wYW5jYWtlcw.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/eisfkLHyVrDACbtW.png',
     ingredients: [
       { amount: '150g', name: 'Kichererbsenmehl' },
       { amount: '200ml', name: 'Wasser' },
       { amount: '2 EL', name: 'Olivenöl' },
       { amount: '1 TL', name: 'Backpulver' },
       { amount: '1 TL', name: 'Vanilleextrakt' },
-      { amount: 'nach Geschmack', name: 'Stevia' },
       { amount: '1 Prise', name: 'Salz' },
     ],
     instructions: [
-      'Kichererbsenmehl, Wasser, Olivenöl, Backpulver, Vanilleextrakt, Stevia und Salz mischen',
+      'Kichererbsenmehl, Wasser, Olivenöl, Backpulver, Vanilleextrakt und Salz mischen',
       '10 Minuten ruhen lassen',
       'In einer Pfanne braten',
       'Pro Seite 3-4 Minuten braten',
@@ -358,7 +355,7 @@ export const breadRecipes: BreadRecipe[] = [
     type: 'vegan',
     prepTime: 40,
     servings: 8,
-    image: '/images/9_9QvmEhfcW8BLidNe9qp2SS_1769335496725_na1fn_L2hvbWUvdWJ1bnR1L2tva29zX2Jyb3Q.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/htzRwVcFwsKLpBWl.png',
     ingredients: [
       { amount: '100g', name: 'Kokosmehl' },
       { amount: '150g', name: 'Buchweizenmehl' },
@@ -395,7 +392,7 @@ export const breadRecipes: BreadRecipe[] = [
     type: 'vegetarian',
     prepTime: 25,
     servings: 6,
-    image: '/images/10_594HJeMWKDJgidlQqaulVn_1769335542659_na1fn_L2hvbWUvdWJ1bnR1L251dF9mbG91cl9yb2xscw.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/vDAoypZKftpUXiYB.png',
     ingredients: [
       { amount: '200g', name: 'Nussmehl (Haselnuss oder Walnuss)' },
       { amount: '4', name: 'Eier' },
@@ -433,7 +430,7 @@ export const breadRecipes: BreadRecipe[] = [
     type: 'vegan',
     prepTime: 20,
     servings: 4,
-    image: '/images/11_9MKT82LdXONapbBObKnK8o_1769335573101_na1fn_L2hvbWUvdWJ1bnR1L3RlZmZfZmxhZGVuYnJvdA.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/SrxZauHrpKWSzVko.png',
     ingredients: [
       { amount: '200g', name: 'Teffmehl' },
       { amount: '220ml', name: 'Wasser' },
@@ -469,7 +466,7 @@ export const breadRecipes: BreadRecipe[] = [
     type: 'vegetarian',
     prepTime: 30,
     servings: 6,
-    image: '/images/12_unmMejagaOaUvvcm2qxDUV_1769335573861_na1fn_L2hvbWUvdWJ1bnR1L3NwaW5hdF9wcm90ZWluX2Jyb2V0Y2hlbg.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/uAzFAtVdrgsxEbXy.png',
     ingredients: [
       { amount: '150g', name: 'Spinat (gefroren, aufgetaut)' },
       { amount: '3', name: 'Eier' },
@@ -505,7 +502,7 @@ export const breadRecipes: BreadRecipe[] = [
     type: 'vegan',
     prepTime: 45,
     servings: 8,
-    image: '/images/13_2EFXJlL2Do8ge2RtSgWjKD_1769335560931_na1fn_L2hvbWUvdWJ1bnR1L2xpbnNlbmJyb3RfZm90bw.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/GtLJyccLqMJBIcOF.png',
     ingredients: [
       { amount: '200g', name: 'Linsenmehl (rote Linsen)' },
       { amount: '100g', name: 'Buchweizenmehl' },
@@ -546,7 +543,7 @@ export const breadRecipes: BreadRecipe[] = [
     type: 'vegetarian',
     prepTime: 25,
     servings: 6,
-    image: '/images/14_uhrXQMvzRtv5CzOvUSoQZ1_1769335565445_na1fn_L2hvbWUvdWJ1bnR1L2thZXNlX2tyYWV1dGVyX2Jyb2V0Y2hlbg.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/ZVgczazeAPLwTIzx.png',
     ingredients: [
       { amount: '200g', name: 'Mandelmehl' },
       { amount: '4', name: 'Eier' },
@@ -582,7 +579,7 @@ export const breadRecipes: BreadRecipe[] = [
     type: 'vegan',
     prepTime: 20,
     servings: 6,
-    image: '/images/15_dnyaytEjTuowQAejFED9Uc_1769335567900_na1fn_L2hvbWUvdWJ1bnR1L2NoaWFfcGFuY2FrZXM.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/BAqzLWSYZGnpjhGp.png',
     ingredients: [
       { amount: '100g', name: 'Chia-Samen' },
       { amount: '200ml', name: 'Wasser' },
@@ -590,12 +587,11 @@ export const breadRecipes: BreadRecipe[] = [
       { amount: '2 EL', name: 'Olivenöl' },
       { amount: '1 TL', name: 'Backpulver' },
       { amount: '1 TL', name: 'Vanilleextrakt' },
-      { amount: 'nach Geschmack', name: 'Stevia' },
     ],
     instructions: [
       'Chia-Samen mit Wasser vermischen',
       '15 Minuten quellen lassen',
-      'Buchweizenmehl, Olivenöl, Backpulver, Vanilleextrakt und Stevia hinzufügen',
+      'Buchweizenmehl, Olivenöl, Backpulver und Vanilleextrakt hinzufügen',
       'In einer Pfanne braten',
       'Pro Seite 3-4 Minuten braten',
     ],
@@ -618,7 +614,7 @@ export const breadRecipes: BreadRecipe[] = [
     type: 'vegan',
     prepTime: 35,
     servings: 6,
-    image: '/images/16_2lGqrqDdVWc8wf9jx5MmbA_1769335572904_na1fn_L2hvbWUvdWJ1bnR1L2hpcnNlX2Jyb2V0Y2hlbg.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/cklHRqAJQcPnUARu.png',
     ingredients: [
       { amount: '200g', name: 'Hirsemel' },
       { amount: '100g', name: 'Kichererbsenmehl' },

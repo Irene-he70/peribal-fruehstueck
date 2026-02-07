@@ -25,7 +25,7 @@ export const recipes: Recipe[] = [
     name: 'Vanille-Quark mit Beeren',
     type: 'sweet',
     prepTime: 5,
-    image: '/images/sweet_01_vanille_quark.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/feVsJCnFXPNFqycv.png',
     ingredients: [
       { name: 'Quark (20% Fett)', amount: '200g' },
       { name: 'Vanilleextrakt', amount: '1 TL' },
@@ -56,7 +56,7 @@ export const recipes: Recipe[] = [
     name: 'Schoko-Bananen-Shake',
     type: 'sweet',
     prepTime: 5,
-    image: '/images/sweet_02_schoko_shake.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/vFDkWeflTWIKfNvI.png',
     ingredients: [
       { name: 'Griechischer Joghurt', amount: '150g' },
       { name: 'Banane', amount: '1 kleine' },
@@ -87,7 +87,7 @@ export const recipes: Recipe[] = [
     name: 'Joghurt mit Walnüssen und Zimt',
     type: 'sweet',
     prepTime: 5,
-    image: '/images/sweet_03_joghurt_walnuss.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/AgqDaFmGevNCKaym.png',
     ingredients: [
       { name: 'Griechischer Joghurt (0% Fett)', amount: '200g' },
       { name: 'Walnüsse (gehackt)', amount: '40g' },
@@ -117,19 +117,18 @@ export const recipes: Recipe[] = [
     name: 'Chia-Pudding mit Himbeeren',
     type: 'sweet',
     prepTime: 10,
-    image: '/images/sweet_04_chia_pudding.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/ZfwaGXoDCmzNCjxi.png',
     ingredients: [
       { name: 'Kokosmilch (vollfett)', amount: '150ml' },
       { name: 'Mandelmilch', amount: '100ml' },
       { name: 'Chia-Samen', amount: '3 EL' },
       { name: 'Himbeeren (frisch)', amount: '100g' },
-      { name: 'Vanilleextrakt', amount: '1/2 TL' },
-      { name: 'Stevia', amount: 'nach Geschmack' }
+      { name: 'Vanilleextrakt', amount: '1/2 TL' }
     ],
     instructions: [
       'Kokosmilch und Mandelmilch mischen',
       'Chia-Samen hinzufügen',
-      'Vanilleextrakt und Stevia einrühren',
+      'Vanilleextrakt einrühren',
       'Über Nacht im Kühlschrank stehen lassen',
       'Mit Himbeeren toppen und servieren'
     ],
@@ -148,7 +147,7 @@ export const recipes: Recipe[] = [
     name: 'Hüttenkäse mit Apfel und Zimt',
     type: 'sweet',
     prepTime: 5,
-    image: '/images/sweet_05_huettenkase_apfel.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/HBNdmzdMpzpiYKwN.png',
     ingredients: [
       { name: 'Hüttenkäse (2% Fett)', amount: '200g' },
       { name: 'Apfel (gewürfelt)', amount: '1 mittel' },
@@ -178,7 +177,7 @@ export const recipes: Recipe[] = [
     name: 'Beeren-Crumble',
     type: 'sweet',
     prepTime: 20,
-    image: '/images/sweet_06_beeren_crumble.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/UdxJzgYKIZHOjLVm.png',
     ingredients: [
       { name: 'Blaubeeren', amount: '100g' },
       { name: 'Himbeeren', amount: '80g' },
@@ -209,7 +208,7 @@ export const recipes: Recipe[] = [
     name: 'Espresso-Frappe',
     type: 'sweet',
     prepTime: 5,
-    image: '/images/sweet_07_espresso_frappe.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/sMUqpTTlhCglKeAl.png',
     ingredients: [
       { name: 'Espresso (stark)', amount: '60ml' },
       { name: 'Griechischer Joghurt', amount: '150g' },
@@ -240,7 +239,7 @@ export const recipes: Recipe[] = [
     name: 'Kokosjogurt mit Mango',
     type: 'sweet',
     prepTime: 5,
-    image: '/images/sweet_08_kokos_joghurt_mango.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/aVUbxuzxySHLOVdI.png',
     ingredients: [
       { name: 'Kokosjogurt', amount: '200g' },
       { name: 'Mango (gewürfelt)', amount: '150g' },
@@ -270,17 +269,16 @@ export const recipes: Recipe[] = [
     name: 'Protein-Brötchen',
     type: 'sweet',
     prepTime: 25,
-    image: '/images/sweet_09_quark_broetchen.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/dwsNWYWShGpBEqLu.png',
     ingredients: [
       { name: 'Quark (20% Fett)', amount: '250g' },
       { name: 'Eier', amount: '3' },
       { name: 'Proteinpulver (Vanilla)', amount: '2 Scoops' },
       { name: 'Backpulver', amount: '1 TL' },
       { name: 'Vanilleextrakt', amount: '1 TL' },
-      { name: 'Stevia', amount: 'nach Geschmack' }
     ],
     instructions: [
-      'Quark, Eier, Proteinpulver, Backpulver, Vanilleextrakt und Stevia mischen',
+      'Quark, Eier, Proteinpulver, Backpulver und Vanilleextrakt mischen',
       'Teig in Muffinformen geben',
       '20 Minuten bei 180°C backen',
       'Abkühlen lassen',
@@ -301,7 +299,7 @@ export const recipes: Recipe[] = [
     name: 'Ricotta mit Pfirsich',
     type: 'sweet',
     prepTime: 10,
-    image: '/images/sweet_10_ricotta_pfirsich.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/FFtpgweYqPQGTsvj.png',
     ingredients: [
       { name: 'Ricotta', amount: '200g' },
       { name: 'Pfirsich (gegrillt)', amount: '2 Hälften' },
@@ -331,7 +329,7 @@ export const recipes: Recipe[] = [
     name: 'Protein-Waffeln mit Kirschen',
     type: 'sweet',
     prepTime: 20,
-    image: '/images/sweet_11_protein_waffeln.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/uZZMCfHVDljgWDOD.png',
     ingredients: [
       { name: 'Eier', amount: '3' },
       { name: 'Griechischer Joghurt', amount: '150g' },
@@ -362,7 +360,7 @@ export const recipes: Recipe[] = [
     name: 'Baked Oats mit Apfel',
     type: 'sweet',
     prepTime: 30,
-    image: '/images/sweet_12_baked_oats.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/PYirOtzDGeOoZEsQ.png',
     ingredients: [
       { name: 'Haferflocken (Großblatt)', amount: '80g' },
       { name: 'Eier', amount: '2' },
@@ -393,7 +391,7 @@ export const recipes: Recipe[] = [
     name: 'Milchreis mit Vanille',
     type: 'sweet',
     prepTime: 20,
-    image: '/images/sweet_13_milchreis.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/QFVBRelQbTFzCifc.png',
     ingredients: [
       { name: 'Vollkornreis', amount: '60g' },
       { name: 'Milch (2% Fett)', amount: '300ml' },
@@ -424,7 +422,7 @@ export const recipes: Recipe[] = [
     name: 'Frühstückspizza mit Früchten',
     type: 'sweet',
     prepTime: 25,
-    image: '/images/sweet_14_fruehstueckspizza.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/mvHWXvyStvhYbFWl.png',
     ingredients: [
       { name: 'Fladen/Pita-Brot', amount: '1' },
       { name: 'Quark (20% Fett)', amount: '150g' },
@@ -457,7 +455,7 @@ export const recipes: Recipe[] = [
     name: 'Rührei mit Spinat und Feta',
     type: 'savory',
     prepTime: 10,
-    image: '/images/savory_01_ruehrei_spinat.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/dlSxZmByHkjdsYWG.png',
     ingredients: [
       { name: 'Eier', amount: '3' },
       { name: 'Spinat (frisch)', amount: '150g' },
@@ -489,7 +487,7 @@ export const recipes: Recipe[] = [
     name: 'Hüttenkäse mit Tomate und Kräutern',
     type: 'savory',
     prepTime: 5,
-    image: '/images/savory_02_huettenkase_tomate.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/YFUyRaJwgQChOJVW.png',
     ingredients: [
       { name: 'Hüttenkäse (2% Fett)', amount: '200g' },
       { name: 'Kirschtomaten (halbiert)', amount: '150g' },
@@ -520,7 +518,7 @@ export const recipes: Recipe[] = [
     name: 'Tofu-Rührei Asia-Style',
     type: 'savory',
     prepTime: 10,
-    image: '/images/savory_03_tofu_scramble.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/IDgCnRXOuPkSeGKr.png',
     ingredients: [
       { name: 'Tofu (fest)', amount: '250g' },
       { name: 'Kurkuma', amount: '1/2 TL' },
@@ -552,7 +550,7 @@ export const recipes: Recipe[] = [
     name: 'Ei-Muffins mit Gemüse',
     type: 'savory',
     prepTime: 25,
-    image: '/images/savory_04_eiermuffins.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/hyuCBrDhjClNsCST.png',
     ingredients: [
       { name: 'Eier', amount: '6' },
       { name: 'Paprika (rot, gewürfelt)', amount: '1' },
@@ -584,7 +582,7 @@ export const recipes: Recipe[] = [
     name: 'Avocado-Toast mit Ei',
     type: 'savory',
     prepTime: 10,
-    image: '/images/savory_05_avocado_toast.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/OYVHEmrqUbZfkZVn.png',
     ingredients: [
       { name: 'Vollkornbrot', amount: '1 Scheibe' },
       { name: 'Avocado', amount: '1/2' },
@@ -616,7 +614,7 @@ export const recipes: Recipe[] = [
     name: 'Joghurt-Gurken-Dip',
     type: 'savory',
     prepTime: 10,
-    image: '/images/savory_06_joghurt_gurke.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/SeoidjXWglVKFYDx.png',
     ingredients: [
       { name: 'Griechischer Joghurt', amount: '200g' },
       { name: 'Gurke (gerieben)', amount: '150g' },
@@ -648,7 +646,7 @@ export const recipes: Recipe[] = [
     name: 'Geräucherter Tofu mit Senf',
     type: 'savory',
     prepTime: 10,
-    image: '/images/savory_07_raeuchertofu.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/espOBYPeulumCJoY.png',
     ingredients: [
       { name: 'Geräucherter Tofu', amount: '200g' },
       { name: 'Vollkornbrot', amount: '2 Scheiben' },
@@ -680,7 +678,7 @@ export const recipes: Recipe[] = [
     name: 'Kichererbsen-Salat',
     type: 'savory',
     prepTime: 10,
-    image: '/images/savory_08_kichererbsen_salat.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/LXXdNRGyKhHOJQWg.png',
     ingredients: [
       { name: 'Kichererbsen (gekocht)', amount: '150g' },
       { name: 'Sellerie (gehackt)', amount: '100g' },
@@ -712,7 +710,7 @@ export const recipes: Recipe[] = [
     name: 'Caprese-Salat',
     type: 'savory',
     prepTime: 10,
-    image: '/images/savory_09_mozzarella_tomate.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/aLNzxVCuzSaUWsBn.png',
     ingredients: [
       { name: 'Mozzarella (frisch)', amount: '150g' },
       { name: 'Tomaten (geschnitten)', amount: '2 mittel' },
@@ -744,7 +742,7 @@ export const recipes: Recipe[] = [
     name: 'Linsen-Dip mit Gemüse',
     type: 'savory',
     prepTime: 15,
-    image: '/images/savory_10_linsen_dip.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/gTsDbxPPfhCStHls.png',
     ingredients: [
       { name: 'Rote Linsen (gekocht)', amount: '150g' },
       { name: 'Tahini', amount: '2 EL' },
@@ -775,7 +773,7 @@ export const recipes: Recipe[] = [
     name: 'Shakshuka',
     type: 'savory',
     prepTime: 20,
-    image: '/images/savory_11_shakshuka.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/fEgccQaZTTVpyzAw.png',
     ingredients: [
       { name: 'Tomaten (gehackt)', amount: '400g' },
       { name: 'Kichererbsen (gekocht)', amount: '100g' },
@@ -807,7 +805,7 @@ export const recipes: Recipe[] = [
     name: 'Pilz-Pfannkuchen mit Frischkäse',
     type: 'savory',
     prepTime: 20,
-    image: '/images/savory_12_pfannkuchen_pilze.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/QgpBVYsvUPmJLMGn.png',
     ingredients: [
       { name: 'Kichererbsenmehl', amount: '100g' },
       { name: 'Eier', amount: '2' },
@@ -839,7 +837,7 @@ export const recipes: Recipe[] = [
     name: 'Spinat-Feta-Muffins',
     type: 'savory',
     prepTime: 25,
-    image: '/images/savory_13_spinat_muffins.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/ZucQgCYGTOdobCvO.png',
     ingredients: [
       { name: 'Eier', amount: '6' },
       { name: 'Spinat (gefroren)', amount: '150g' },
@@ -871,7 +869,7 @@ export const recipes: Recipe[] = [
     name: 'Zucchini-Puffer mit Kräuter-Quark',
     type: 'savory',
     prepTime: 20,
-    image: '/images/savory_14_zucchini_puffer.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/IBRpIUwHcZyqUYXK.png',
     ingredients: [
       { name: 'Zucchini (gerieben)', amount: '300g' },
       { name: 'Eier', amount: '2' },
