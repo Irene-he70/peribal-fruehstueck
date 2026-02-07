@@ -30,7 +30,7 @@ export const dinnerRecipes: DinnerRecipe[] = [
     temperature: 'warm',
     prepTime: 35,
     servings: 4,
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/DvrMnmGcxHVdtczm.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/gZaYrNjoQWtdugYZ.png',
     ingredients: [
       { amount: '400g', name: 'Spinat (frisch oder TK)' },
       { amount: '250g', name: 'Champignons' },
@@ -68,7 +68,7 @@ export const dinnerRecipes: DinnerRecipe[] = [
     temperature: 'warm',
     prepTime: 20,
     servings: 2,
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/bPBZAhOdNkYkuuqh.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/IlRUucGxelHCbFCS.png',
     ingredients: [
       { amount: '6', name: 'Eier' },
       { amount: '200g', name: 'Brokkoli' },
@@ -104,7 +104,7 @@ export const dinnerRecipes: DinnerRecipe[] = [
     temperature: 'warm',
     prepTime: 40,
     servings: 4,
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/WBCIJnumtrJMZcrF.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/sOhpFRowkSabmghK.png',
     ingredients: [
       { amount: '500g', name: 'Griechischer Joghurt (0% Fett)' },
       { amount: '4', name: 'Eier' },
@@ -140,7 +140,7 @@ export const dinnerRecipes: DinnerRecipe[] = [
     temperature: 'warm',
     prepTime: 25,
     servings: 3,
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/cAGjhvtzJcPXTJuo.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/fPdjwrpGAZFjLELB.png',
     ingredients: [
       { amount: '500g', name: 'Brokkoli' },
       { amount: '400ml', name: 'Gemüsebrühe' },
@@ -177,7 +177,7 @@ export const dinnerRecipes: DinnerRecipe[] = [
     temperature: 'warm',
     prepTime: 30,
     servings: 4,
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/BDamtbEiMvxqWwhK.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/ZWnMXFXDjSmZehfV.png',
     ingredients: [
       { amount: '400g', name: 'Mozzarella' },
       { amount: '500g', name: 'Tomaten (frisch)' },
@@ -217,7 +217,7 @@ export const dinnerRecipes: DinnerRecipe[] = [
     temperature: 'cold',
     prepTime: 15,
     servings: 2,
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/QdnRBTROSXPYjOtx.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/BYghYOxdSGTMscjP.png',
     ingredients: [
       { amount: '200g', name: 'Gurke' },
       { amount: '200g', name: 'Tomaten' },
@@ -253,7 +253,7 @@ export const dinnerRecipes: DinnerRecipe[] = [
     temperature: 'cold',
     prepTime: 10,
     servings: 2,
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/TWzMhsZoeyCvmExP.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/VFwTRlTLjSZJpZqG.png',
     ingredients: [
       { amount: '300g', name: 'Mozzarella (Kugeln)' },
       { amount: '300g', name: 'Tomaten' },
@@ -288,7 +288,7 @@ export const dinnerRecipes: DinnerRecipe[] = [
     temperature: 'cold',
     prepTime: 12,
     servings: 2,
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/GUWCGdycJcIUHgdd.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/IhJMdzeWFPBSNlKn.png',
     ingredients: [
       { amount: '200g', name: 'Thunfisch (in Wasser)' },
       { amount: '200g', name: 'Spinat (frisch)' },
@@ -324,7 +324,7 @@ export const dinnerRecipes: DinnerRecipe[] = [
     temperature: 'cold',
     prepTime: 15,
     servings: 2,
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/JItZKnsbcynsSapo.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/FSULrMTOdOrYupzb.png',
     ingredients: [
       { amount: '150g', name: 'Emmentaler-Käse' },
       { amount: '4', name: 'Eier (hartgekocht)' },
@@ -360,7 +360,7 @@ export const dinnerRecipes: DinnerRecipe[] = [
     temperature: 'cold',
     prepTime: 12,
     servings: 2,
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/CveUHMKXcIisKtbX.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/YRJTviehOCwrwUvX.png',
     ingredients: [
       { amount: '300g', name: 'Griechischer Joghurt' },
       { amount: '200g', name: 'Gurke' },
@@ -398,7 +398,7 @@ export const dinnerRecipes: DinnerRecipe[] = [
     temperature: 'warm',
     prepTime: 40,
     servings: 4,
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/dqWkmOTSUtPkBhDM.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/aaDodzhRaBfjXVzX.png',
     ingredients: [
       { amount: '250g', name: 'Rote Linsen' },
       { amount: '300g', name: 'Gemüse-Mix (Karotte, Sellerie, Zwiebel)' },
@@ -435,7 +435,7 @@ export const dinnerRecipes: DinnerRecipe[] = [
     temperature: 'warm',
     prepTime: 30,
     servings: 3,
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/cRFEakdOUQACWyJA.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/uQoeLyIuVFkAuOQe.png',
     ingredients: [
       { amount: '400g', name: 'Kichererbsen (gekocht)' },
       { amount: '300g', name: 'Spinat' },
@@ -472,7 +472,7 @@ export const dinnerRecipes: DinnerRecipe[] = [
     temperature: 'warm',
     prepTime: 25,
     servings: 2,
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/dOxaATThQDMgqGPL.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/IdlocpieZzDHdQeD.png',
     ingredients: [
       { amount: '300g', name: 'Tofu (Natur)' },
       { amount: '200g', name: 'Brokkoli' },
@@ -509,7 +509,7 @@ export const dinnerRecipes: DinnerRecipe[] = [
     temperature: 'warm',
     prepTime: 35,
     servings: 3,
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/thnTpgCGVWUIUpeN.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/YTEiNEkQtsGMhVAT.png',
     ingredients: [
       { amount: '250g', name: 'Braune Linsen' },
       { amount: '300g', name: 'Tomaten (gehackt)' },
@@ -546,7 +546,7 @@ export const dinnerRecipes: DinnerRecipe[] = [
     temperature: 'warm',
     prepTime: 25,
     servings: 2,
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/FRlqIDzdpRyTrHVn.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/dMmjPraJYUwGeQzY.png',
     ingredients: [
       { amount: '300g', name: 'Kichererbsen (gekocht)' },
       { amount: '200g', name: 'Zucchini' },
@@ -585,7 +585,7 @@ export const dinnerRecipes: DinnerRecipe[] = [
     temperature: 'cold',
     prepTime: 20,
     servings: 3,
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/JwVEJUQMuRkpYxNl.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/rJFhQBJDysVVXaQT.png',
     ingredients: [
       { amount: '250g', name: 'Braune Linsen (gekocht)' },
       { amount: '200g', name: 'Gurke' },
@@ -622,7 +622,7 @@ export const dinnerRecipes: DinnerRecipe[] = [
     temperature: 'cold',
     prepTime: 15,
     servings: 2,
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/IRJtliRYshmsiJWG.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/qkpgxaaFsNOGbtsP.png',
     ingredients: [
       { amount: '300g', name: 'Kichererbsen (gekocht)' },
       { amount: '200g', name: 'Gemischte Salate' },
@@ -659,7 +659,7 @@ export const dinnerRecipes: DinnerRecipe[] = [
     temperature: 'cold',
     prepTime: 15,
     servings: 2,
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/aGIVJifAkJYeHnGd.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/AqFowAysMeVgvmhG.png',
     ingredients: [
       { amount: '250g', name: 'Tofu (geräuchert)' },
       { amount: '200g', name: 'Spinat' },
@@ -695,7 +695,7 @@ export const dinnerRecipes: DinnerRecipe[] = [
     temperature: 'cold',
     prepTime: 20,
     servings: 2,
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/fuxJwmxohbtRLvPa.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/rvBKeVPELHVrTVwB.png',
     ingredients: [
       { amount: '200g', name: 'Linsen-Falafel (gekocht)' },
       { amount: '200g', name: 'Gemischte Salate' },
@@ -732,7 +732,7 @@ export const dinnerRecipes: DinnerRecipe[] = [
     temperature: 'cold',
     prepTime: 18,
     servings: 3,
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/KVJvmKyuTOzsUOdj.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/atgdglJturaiudSE.png',
     ingredients: [
       { amount: '200g', name: 'Couscous' },
       { amount: '300g', name: 'Kichererbsen (gekocht)' },

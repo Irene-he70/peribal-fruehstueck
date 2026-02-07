@@ -29,7 +29,7 @@ export const breadRecipes: BreadRecipe[] = [
     type: 'vegetarian',
     prepTime: 25,
     servings: 6,
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/rLkfVQUUctJXAocD.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/UQGKmUuZLvPGKnjp.png',
     ingredients: [
       { amount: '250g', name: 'Quark (20% Fett)' },
       { amount: '3', name: 'Eier' },
@@ -62,7 +62,7 @@ export const breadRecipes: BreadRecipe[] = [
     type: 'vegan',
     prepTime: 30,
     servings: 8,
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/hjokJpWshYAMstJF.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/KnlmCBOCXhJMVBPS.png',
     ingredients: [
       { amount: '200g', name: 'Buchweizenmehl' },
       { amount: '100g', name: 'Kichererbsenmehl' },
@@ -101,7 +101,7 @@ export const breadRecipes: BreadRecipe[] = [
     type: 'vegetarian',
     prepTime: 20,
     servings: 6,
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/XNSYKqzZUoyCEckE.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/LlftqGHsiUUeIuEz.png',
     ingredients: [
       { amount: '250g', name: 'Mandelmehl' },
       { amount: '4', name: 'Eier' },
@@ -136,7 +136,7 @@ export const breadRecipes: BreadRecipe[] = [
     type: 'vegan',
     prepTime: 25,
     servings: 4,
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/tAfOKgFlBadyUaYD.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/SqKiXaeZwibASXYp.png',
     ingredients: [
       { amount: '200g', name: 'Kichererbsenmehl' },
       { amount: '200ml', name: 'Wasser' },
@@ -175,7 +175,7 @@ export const breadRecipes: BreadRecipe[] = [
     type: 'vegetarian',
     prepTime: 35,
     servings: 8,
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/kJQDCeLHjACCobEK.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/LmAHvjHWXEAZgLPk.png',
     ingredients: [
       { amount: '8', name: 'Eier' },
       { amount: '200g', name: 'Quark (20% Fett)' },
@@ -214,7 +214,7 @@ export const breadRecipes: BreadRecipe[] = [
     type: 'vegan',
     prepTime: 40,
     servings: 6,
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/kUyUhsQOOfRwsoxr.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/fDSMFYKHuITcRorh.png',
     ingredients: [
       { amount: '150g', name: 'Leinsamenmehl' },
       { amount: '150g', name: 'Buchweizenmehl' },
@@ -253,7 +253,7 @@ export const breadRecipes: BreadRecipe[] = [
     type: 'vegetarian',
     prepTime: 30,
     servings: 6,
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/PncUUYCTZAlKVLTu.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/bNDbXmmNqXAKfdLH.png',
     ingredients: [
       { amount: '200g', name: 'Süßkartoffel (gekocht, püriert)' },
       { amount: '3', name: 'Eier' },
@@ -288,7 +288,7 @@ export const breadRecipes: BreadRecipe[] = [
     type: 'vegetarian',
     prepTime: 15,
     servings: 8,
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/HhJIFQPvpGYRSqje.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/wKQhaFlyJttlXCUG.png',
     ingredients: [
       { amount: '3', name: 'Eier' },
       { amount: '150g', name: 'Griechischer Joghurt' },
@@ -321,7 +321,7 @@ export const breadRecipes: BreadRecipe[] = [
     type: 'vegan',
     prepTime: 20,
     servings: 6,
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/eisfkLHyVrDACbtW.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/PxVttNQqIpsTsQBA.png',
     ingredients: [
       { amount: '150g', name: 'Kichererbsenmehl' },
       { amount: '200ml', name: 'Wasser' },
@@ -355,7 +355,7 @@ export const breadRecipes: BreadRecipe[] = [
     type: 'vegan',
     prepTime: 40,
     servings: 8,
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/htzRwVcFwsKLpBWl.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/vfftSsuXBldulbnP.png',
     ingredients: [
       { amount: '100g', name: 'Kokosmehl' },
       { amount: '150g', name: 'Buchweizenmehl' },
@@ -392,7 +392,7 @@ export const breadRecipes: BreadRecipe[] = [
     type: 'vegetarian',
     prepTime: 25,
     servings: 6,
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/vDAoypZKftpUXiYB.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/TPfkWUhYrEZcKgpj.png',
     ingredients: [
       { amount: '200g', name: 'Nussmehl (Haselnuss oder Walnuss)' },
       { amount: '4', name: 'Eier' },
@@ -430,7 +430,7 @@ export const breadRecipes: BreadRecipe[] = [
     type: 'vegan',
     prepTime: 20,
     servings: 4,
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/SrxZauHrpKWSzVko.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/IGrdpZBbzauBdYgD.png',
     ingredients: [
       { amount: '200g', name: 'Teffmehl' },
       { amount: '220ml', name: 'Wasser' },
@@ -466,7 +466,7 @@ export const breadRecipes: BreadRecipe[] = [
     type: 'vegetarian',
     prepTime: 30,
     servings: 6,
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/uAzFAtVdrgsxEbXy.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/QmOjPYxHIycFHyhp.png',
     ingredients: [
       { amount: '150g', name: 'Spinat (gefroren, aufgetaut)' },
       { amount: '3', name: 'Eier' },
@@ -502,7 +502,7 @@ export const breadRecipes: BreadRecipe[] = [
     type: 'vegan',
     prepTime: 45,
     servings: 8,
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/GtLJyccLqMJBIcOF.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/wenpmKEiAOYzDCsk.png',
     ingredients: [
       { amount: '200g', name: 'Linsenmehl (rote Linsen)' },
       { amount: '100g', name: 'Buchweizenmehl' },
@@ -543,7 +543,7 @@ export const breadRecipes: BreadRecipe[] = [
     type: 'vegetarian',
     prepTime: 25,
     servings: 6,
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/ZVgczazeAPLwTIzx.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/UokfKPMIWVFJjNqj.png',
     ingredients: [
       { amount: '200g', name: 'Mandelmehl' },
       { amount: '4', name: 'Eier' },
@@ -579,7 +579,7 @@ export const breadRecipes: BreadRecipe[] = [
     type: 'vegan',
     prepTime: 20,
     servings: 6,
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/BAqzLWSYZGnpjhGp.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/pDGpYyJvCukWcamn.png',
     ingredients: [
       { amount: '100g', name: 'Chia-Samen' },
       { amount: '200ml', name: 'Wasser' },
@@ -614,7 +614,7 @@ export const breadRecipes: BreadRecipe[] = [
     type: 'vegan',
     prepTime: 35,
     servings: 6,
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/cklHRqAJQcPnUARu.png',
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663171267902/XgxUYXRSCTPKswzp.png',
     ingredients: [
       { amount: '200g', name: 'Hirsemel' },
       { amount: '100g', name: 'Kichererbsenmehl' },
